@@ -70,4 +70,4 @@ Icon=/(Location to)/chatgpt.ico
 - Move quickgpt.desktop to this location:
 > ~/.local/share/applications
 
-At this point you should be able to find 'quickgpt' with your preferred application launcher and move it various places depending on your Desktop Enviorment and 
+At this point you should be able to find 'quickgpt' with your preferred application launcher and move it various places depending on your Desktop Enviorment. 
