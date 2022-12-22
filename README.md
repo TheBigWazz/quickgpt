@@ -10,6 +10,8 @@ A simple Python window to display ChatGPT, created with ChatGPT and no Python ex
 
 - Refresh button at the top will reload the page if it gets stuck or if the ChatGPT session encounters errors.
 
+- The Google Security Key 2fa method is not supported with QtWebEngine, if your OpenAI login is tied to a Google account with this method as the default, you'll need to wait for it to timeout on the login screen to select another method; or set a new default 2fa method in the settings of that Google Account.
+
 ## Dependencies
 
 **PyQt5:**  
