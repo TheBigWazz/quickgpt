@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=quickgpt
+Exec=/(Location to executable)
+Icon=/(Location to)/chatgpt.ico
