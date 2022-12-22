@@ -31,6 +31,6 @@ Navigate to where quickgpt.py is saved and run this command:
   
 > --windowed: Hides the Python console when running the application
 
-> -F: Packages everything needed for the application to run into a single .exe. Exclude this flag to get an executable for Unix. These files are output in the 'dist' folder created in the same location as the script.
+> -F: Packages everything needed for the application to run into a single executable. The file is output in the 'dist' folder created in the same location as the script.
 
 View more information about PyInstaller to further customize the executable: https://pyinstaller.org/en/stable/
