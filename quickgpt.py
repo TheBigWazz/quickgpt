@@ -26,7 +26,7 @@ app.setStyleSheet("""
     }
 """)
 
-# Hide the console
+# console
 app.setApplicationName("ChatGPT")
 app.setApplicationDisplayName("ChatGPT")
 app.setQuitOnLastWindowClosed(True)
@@ -52,13 +52,6 @@ back_button.setStyleSheet("""
         background-color: #777777;
     }
 """)
-
-# Define a function to go back to the original webpage
-def go_back():
-    view.setUrl(QUrl("https://chat.openai.com/chat"))
-
-
-
 
 
 # Create a QPushButton to go back to the original webpage
