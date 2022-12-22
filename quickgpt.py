@@ -53,7 +53,6 @@ back_button.setStyleSheet("""
     }
 """)
 
-
 # Create a QPushButton to go back to the original webpage
 back_button = QPushButton("Refresh")
 
