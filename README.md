@@ -14,16 +14,28 @@ A simple Python window to display ChatGPT, created with ChatGPT and no Python ex
 
 ## Dependencies
 
-**PyQt5:**  
+### Python: ### 
+
+#### Windows ####
+ 
+https://www.python.org/downloads/  
+**Make sure to check the box that adds Python to your PATH before installing*  
+
+#### Debian ####
+
+```sudo apt install python3```  
+___
+
+### PyQt5: ###  
 ```pip install PyQt5```
 
-**PyQtWebEngine:**  
+### PyQtWebEngine: ###  
 ```pip install PyQtWebEngine```  
 Or download from here: https://pypi.org/project/PyQtWebEngine/#files  
 Install with
 ```py -m pip install ./downloads/(File you downloaded)```
 
-**PyInstaller:**  
+### PyInstaller: ###  
 ```pip install pyinstaller```
 
 
@@ -43,7 +55,7 @@ View more information about PyInstaller to further customize the executable: htt
 - If you'd like, right click the shortcut and set the icon to chatgpt.ico (provided)
 - If you'd like, right click the shortcut and rename it.
 
-Everything should be set at this point. 
+At this point you can pin the shortcut to the taskbar or start menu, or leave it on the desktop.
 
 ### Debian
 - Update the quickgpt.desktop file with the correct paths to the executable and icon. Lines 4 and 5:
@@ -58,4 +70,4 @@ Icon=/(Location to)/chatgpt.ico
 - Move quickgpt.desktop to this location:
 > ~/.local/share/applications
 
-Everything should be set at this point.
+At this point you should be able to find 'quickgpt' with your preferred application launcher and move it various places depending on your Desktop Enviorment and 
