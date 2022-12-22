@@ -1,7 +1,7 @@
 # quickgpt
 A simple Python window to display ChatGPT, created with ChatGPT and no Python experience.
 
-![chatgpt](https://user-images.githubusercontent.com/80355486/209186458-5966e6a4-7977-4ddb-9764-8d18660fb6b3.png)
+![image](https://user-images.githubusercontent.com/80355486/209231564-e4946280-855c-4b04-b75d-22dd5c4935f6.png)
 
 #### Notes:
 - I can't figure out how to give the website JS permission to write to the clipboard, so for now the 'Copy Code' buttons do not work, you'll need to manually highlight and right click text.
