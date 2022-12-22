@@ -36,3 +36,26 @@ Navigate to where quickgpt.py is saved and run this command:
 > -F: Packages everything needed for the application to run into a single executable. The file is output in the 'dist' folder created in the same location as the script.
 
 View more information about PyInstaller to further customize the executable: https://pyinstaller.org/en/stable/
+
+# Executable Shortcuts
+### Windows
+- Right click the EXE created and send a shortcut to the desktop. 
+- If you'd like, Right click the shortcut and set the icon to chatgpt.ico (provided)
+- If you'd like, rightclick the shortcut and rename it.
+
+Everything should be set at this point. 
+
+### Debian
+- Update the quickgpt.desktop file with the correct paths to the executable and icon. Lines 4 and 5:
+```
+[Desktop Entry]
+Type=Application
+Name=quickgpt
+Exec=/(Location to executable)
+Icon=/(Location to)/chatgpt.ico
+```
+
+- Move quickgpt.desktop to:
+> ~/.local/share/applications
+
+Everything should be set at this point.
