@@ -40,8 +40,8 @@ View more information about PyInstaller to further customize the executable: htt
 # Executable Shortcuts
 ### Windows
 - Right click the EXE created and send a shortcut to the desktop. 
-- If you'd like, Right click the shortcut and set the icon to chatgpt.ico (provided)
-- If you'd like, rightclick the shortcut and rename it.
+- If you'd like, right click the shortcut and set the icon to chatgpt.ico (provided)
+- If you'd like, right click the shortcut and rename it.
 
 Everything should be set at this point. 
 
@@ -55,7 +55,7 @@ Exec=/(Location to executable)
 Icon=/(Location to)/chatgpt.ico
 ```
 
-- Move quickgpt.desktop to:
+- Move quickgpt.desktop to this location:
 > ~/.local/share/applications
 
 Everything should be set at this point.
