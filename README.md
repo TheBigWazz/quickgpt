@@ -1,14 +1,14 @@
 # quickgpt
 A simple Python window to display ChatGPT, created with ChatGPT and no Python experience.
 
-![image](https://user-images.githubusercontent.com/80355486/209231564-e4946280-855c-4b04-b75d-22dd5c4935f6.png)
+![image](https://user-images.githubusercontent.com/80355486/213033246-91d659f4-5360-42b5-8cbc-f8c48bef4e84.png)
 
 #### Notes:
-- I can't figure out how to give the website JS permission to write to the clipboard, so for now the 'Copy Code' buttons do not work, you'll need to manually highlight and right click text.
+- Copy Code button now works! ~~I can't figure out how to give the website JS permission to write to the clipboard, so for now the 'Copy Code' buttons do not work, you'll need to manually highlight and right click text.~~
 
 - Padding is wonky with QtWebEngine, some elements may be more cozy than others. 
 
-- Refresh button at the top will reload the page if it gets stuck or if the ChatGPT session encounters errors.
+- Reload button will reload the current page, Home will reload the inital "https://chat.openai.com/chat"
 
 - The Google Security Key 2fa method is not supported with QtWebEngine, if your OpenAI login is tied to a Google account with this method as the default, you'll need to wait for it to timeout on the login screen to select another method; or set a new default 2fa method in the settings of that Google Account.
 
@@ -34,6 +34,15 @@ ___
 Or download from here: https://pypi.org/project/PyQtWebEngine/#files  
 Install with
 ```py -m pip install ./downloads/(File you downloaded)```
+
+### QtCore ###
+```pip install QtCore```
+
+### QtWidgets ###
+```pip install QtWidgets```
+
+### QtGui ###
+```pip install QtGui```
 
 ### PyInstaller: ###  
 ```pip install pyinstaller```
