@@ -93,6 +93,7 @@ app = QApplication(sys.argv)
 app.setStyleSheet("""
     QWidget {
         color: white;
+        background: #202123;
     }
 """)
  
