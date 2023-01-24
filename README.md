@@ -50,18 +50,21 @@ Install with
 
 # Creating Executable 
 Navigate to where quickgpt.py is saved and run this command:  
-```pyinstaller --windowed quickgpt.py -F```
+```pyinstaller -w -F -i=chatgpt.ico --add-data="chatgpt.ico;img" quickgpt.py```
   
-> --windowed: Hides the Python console when running the application
+> -w: Hides the Python console when running the application
 
 > -F: Packages everything needed for the application to run into a single executable. The file is output in the 'dist' folder created in the same location as the script.
+
+> -i: Sets the program icon
+
+> --add-data: Adds the .ico to the \img\ output for the .exe
 
 View more information about PyInstaller to further customize the executable: https://pyinstaller.org/en/stable/
 
 # Executable Shortcuts
 ### Windows
 - Right click the EXE created and send a shortcut to the desktop. 
-- If you'd like, right click the shortcut and set the icon to chatgpt.ico (provided)
 - If you'd like, right click the shortcut and rename it.
 
 At this point you can pin the shortcut to the taskbar or start menu, or leave it on the desktop.
