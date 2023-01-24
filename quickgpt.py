@@ -10,11 +10,17 @@ class MainWindow(QMainWindow):
     # constructor
     def __init__(self, *args, **kwargs):
         super(MainWindow, self).__init__(*args, **kwargs)
+        
+        # set the icon path to working path
+        icon_path = os.path.dirname(os.path.abspath(__file__)) + '/img/chatgpt.ico'
+        
+        # set the window icon
+        self.setWindowIcon(QIcon(icon_path))     
  
         # creating a QWebEngineView
         self.browser = QWebEngineView()
  
-        # setting default browser url as google
+        # setting default browser url as ChatGPT
         self.browser.setUrl(QUrl("https://chat.openai.com/chat"))
  
         # set this browser as central widget or main window
